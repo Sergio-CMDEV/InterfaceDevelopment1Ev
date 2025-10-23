@@ -13,7 +13,9 @@ public class MainAnimales {
         };
         for (Animal animal : animales) {
             animal.mostrarInfo();
+            animal.comer();
             animal.hacerSonido();
+            System.out.println("--------------------------------");
         }
     }
 }
